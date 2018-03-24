@@ -16,7 +16,7 @@ class UserMessage(models.Model):
 
     class Meta:
         verbose_name = "User message"
-        db_table = "user_meassage"
-        ordering = '-object_id'
+        # db_table = "user_meassage"
+        # ordering = '-object_id'
         verbose_name_plural = verbose_name
 
